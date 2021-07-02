@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600&display=swap');
+
+$cyan: hsl(180, 62%, 55%);
+$red: hsl(0, 78%, 62%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+
+$very-dark-blue: hsl(234, 12%, 34%);
+$grayish-blue: hsl(229, 6%, 66%);
+$very-light-gray: hsl(0, 0%, 98%);
+
+$font-familly: 'Poppins', sans-serif;
+
+$font-weight-1: 600;
+$font-weight-2: 400;
+$font-weight-3: 200;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-familly;
+    font-weight: $font-weight-3;
+    background-color: $very-light-gray;
+    position: relative;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .heading-1 {
+        padding-top: 30px;
+        font-size: 24pt;
+        color: $very-dark-blue;
+    }
+
+    .heading-2 {
+        margin-bottom: 15px;
+        font-size: 24pt;
+        font-weight: $font-weight-1;
+        color: $very-dark-blue;
+    }
+
+    .text {
+        max-width: 490px;
+        text-align: center;
+        color: $grayish-blue;
+        margin: 0 30px;
+        margin-bottom: 60px;
+    }
+
+    .card-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+
+        @mixin card($color: black) {
+            width: 280px;
+            height: 170px;
+            padding: 30px;
+            border-top: 4px solid $color;
+            border-radius: 5px;
+            box-shadow: 0 10px 10px 3px rgb(226, 226, 226);
+            position: relative;
+            background-color: white;
+
+            .card-heading {
+                margin-bottom: 5px;
+                font-size: 14pt;
+                font-weight: $font-weight-1;
+                color: $very-dark-blue;
+            }
+
+            .card-description {
+                font-size: 10pt;
+                font-weight: $font-weight-3;
+                color: $grayish-blue;
+                line-height: 25px;
+            }
+
+            .card-icon {
+                position: absolute;
+                right: 30px;
+                bottom: 30px;
+            }
+        }
+
+        .card-1 {
+            @include card($color: $cyan);
+            margin: 30px;
+        }
+
+        .card-2 {
+            @include card($color: $red);
+            margin-bottom: 30px;
+        }
+
+        .card-3 {
+            @include card($color: $orange);
+        }
+
+        .card-4 {
+            @include card($color: $blue);
+            margin: 30px;
+        }
+    }
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    a {
+        color: $blue;
+        text-decoration: none;
+    }
+}

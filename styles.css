@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  background-color: #fafafa;
+  position: relative;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .heading-1 {
+  padding-top: 30px;
+  font-size: 24pt;
+  color: #4c4e61;
+}
+.container .heading-2 {
+  margin-bottom: 15px;
+  font-size: 24pt;
+  font-weight: 600;
+  color: #4c4e61;
+}
+.container .text {
+  max-width: 490px;
+  text-align: center;
+  color: #a3a5ae;
+  margin: 0 30px;
+  margin-bottom: 60px;
+}
+.container .card-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.container .card-container .card-1 {
+  width: 280px;
+  height: 170px;
+  padding: 30px;
+  border-top: 4px solid #45d3d3;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px 3px #e2e2e2;
+  position: relative;
+  background-color: white;
+  margin: 30px;
+}
+.container .card-container .card-1 .card-heading {
+  margin-bottom: 5px;
+  font-size: 14pt;
+  font-weight: 600;
+  color: #4c4e61;
+}
+.container .card-container .card-1 .card-description {
+  font-size: 10pt;
+  font-weight: 200;
+  color: #a3a5ae;
+  line-height: 25px;
+}
+.container .card-container .card-1 .card-icon {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+.container .card-container .card-2 {
+  width: 280px;
+  height: 170px;
+  padding: 30px;
+  border-top: 4px solid #ea5353;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px 3px #e2e2e2;
+  position: relative;
+  background-color: white;
+  margin-bottom: 30px;
+}
+.container .card-container .card-2 .card-heading {
+  margin-bottom: 5px;
+  font-size: 14pt;
+  font-weight: 600;
+  color: #4c4e61;
+}
+.container .card-container .card-2 .card-description {
+  font-size: 10pt;
+  font-weight: 200;
+  color: #a3a5ae;
+  line-height: 25px;
+}
+.container .card-container .card-2 .card-icon {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+.container .card-container .card-3 {
+  width: 280px;
+  height: 170px;
+  padding: 30px;
+  border-top: 4px solid #fcaf4a;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px 3px #e2e2e2;
+  position: relative;
+  background-color: white;
+}
+.container .card-container .card-3 .card-heading {
+  margin-bottom: 5px;
+  font-size: 14pt;
+  font-weight: 600;
+  color: #4c4e61;
+}
+.container .card-container .card-3 .card-description {
+  font-size: 10pt;
+  font-weight: 200;
+  color: #a3a5ae;
+  line-height: 25px;
+}
+.container .card-container .card-3 .card-icon {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+.container .card-container .card-4 {
+  width: 280px;
+  height: 170px;
+  padding: 30px;
+  border-top: 4px solid #549ef2;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px 3px #e2e2e2;
+  position: relative;
+  background-color: white;
+  margin: 30px;
+}
+.container .card-container .card-4 .card-heading {
+  margin-bottom: 5px;
+  font-size: 14pt;
+  font-weight: 600;
+  color: #4c4e61;
+}
+.container .card-container .card-4 .card-description {
+  font-size: 10pt;
+  font-weight: 200;
+  color: #a3a5ae;
+  line-height: 25px;
+}
+.container .card-container .card-4 .card-icon {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.footer a {
+  color: #549ef2;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
